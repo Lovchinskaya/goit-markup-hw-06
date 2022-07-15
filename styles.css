@@ -760,3 +760,47 @@ a.logo-footer {
     left: 15px;
     fill: #212121;
 }
+.form-textarea{
+    resize: none;
+    height: 120px;
+    padding: 12px 16px;
+}
+.checkbox-policy {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.checkbox-input {
+    appearance: none;
+}
+.checkbox-icon {
+    border: 2px solid #212121;
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+    top: 1px;
+    margin-right: 9px;
+    border-radius: 2px;
+}
+.policy-text-link,
+.policy-text {
+    color: #757575;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.policy-text-link {
+    color: var(--blue-brand-color);
+}
+.button-cover-submit {
+    margin-bottom:30px;
+}
+.send-form {
+    width: 200px;
+    height: 50px;
+    background-color: var(--blue-brand-color);
+    color: var(--general-white-color);
+    position: relative;
+    border: 0px;
+    border-radius: 4px;
+    transform: translatex(50%);
+}

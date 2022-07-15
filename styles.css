@@ -632,6 +632,12 @@ a.logo-footer {
 .form-footer {
     margin-top: 20px;
 }
+.twitter-label {
+    visibility: hidden;
+    display: block;
+    width: 0px;
+    height: 0px;
+}
 .twitter {
     width: 358px;
     height: 50px;
@@ -668,7 +674,7 @@ a.logo-footer {
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.06em;
-    line-height: 1.87px;
+    line-height: 1.87;
     margin-right: 10px;
 }
 /*modal*/
@@ -716,10 +722,41 @@ a.logo-footer {
 .modal-title {
     display: block;
     height: 23px;
+    margin-bottom: 12px;
+
 }
-.modal-title-text {
+.title-text {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.03em;
-    line-height: 1.15px;
+    line-height: 1.15;
+
+}
+.form-info {
+    width: 100%;
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+.form-info-input {
+    width: 100%;
+    display: block;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 14px 27px;
+}
+.form-frame-cover {
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.modal-icon-form {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    fill: #212121;
 }

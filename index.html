@@ -389,7 +389,8 @@
                 <span class="footer-join">Подпишитесь на рассылку</span>
             </div>
             <div class="form-footer">
-                <input class="twitter" name="email" placeholder="Email" />
+                <label for="email-footer" class="twitter-label">Имейл</label>
+                <input class="twitter" id="email-footer" name="email" placeholder="Email" />
             </div>
        </div>
        <div class="footer-button">
@@ -407,53 +408,49 @@
    </footer>
    <div class="backdrop-modal is-hidden" data-modal>
        <div class="modal">
-           <button class="modal-close-button" type="button" data-modal-close>
+        <form>
+            <div class="modal-title">
+                <h2 class="title-text">Залиште свої дані, ми вам передзвонимо
+                </h2>
+              </div>
+          <div>
+            <label class="form-info" for="contact">Ім'я</label>
+            <div class="form-frame-cover">
+                <input class="form-info-input"  id="contact" type="text">
+                <svg class="modal-icon-form"  width="12px" height="12px">
+                    <use href="./images/icons.svg#icon-contact"></use>
+                 </svg>
+            </div>
+          </div>
+          <div>
+            <label  class="form-info" for="phone">Телефон</label>
+            <div class="form-frame-cover">
+                <input class="form-info-input" id="phone" type="text">
+                <svg class="modal-icon-form"  width="11px" height="11px">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                 </svg>
+            </div>
+          </div>
+          <div>
+            <label class="form-info" for="email">Пошта</label>
+            <div class="form-frame-cover">
+                <input class="form-info-input" id="email" type="text">
+                <svg class="modal-icon-form"  width="11px" height="11px">
+                    <use href="./images/icons.svg#icon-mail-box"></use>
+                 </svg>
+            </div>
+          </div>
+          <div>
+            <label for="contact">Коментар</label>
+            <input class="contact" id="contact" type="text">
+          </div>
+          <div></div>
+        </form>
+        <button class="modal-close-button" type="button" data-modal-close>
             <svg class="modal-icon"  width="11px" height="11px">
                 <use href="./images/icons.svg#icon-Vector"></use>
              </svg>
            </button>
-          <div class="modal-title">
-            <h2 class="modal-title-text">
-                Оставьте свои данные, мы вам перезвоним
-            </h2>
-          </divclass=bmodal-title>
-          <div>
-            <label for="contact">Имя</label>
-            <input class="contact" id="contact" type="text">
-            <svg class="modal-icon"  width="11px" height="11px">
-                <use href="./images/icons.svg#icon-Vector"></use>
-             </svg>
-          </div>
-          <div>
-            <label for="contact">Имя</label>
-            <input class="contact" id="contact" type="text">
-            <svg class="modal-icon"  width="11px" height="11px">
-                <use href="./images/icons.svg#icon-Vector"></use>
-             </svg>
-          </div>
-          <div>
-            <label for="contact">Имя</label>
-            <input class="contact" id="contact" type="text">
-            <svg class="modal-icon"  width="11px" height="11px">
-                <use href="./images/icons.svg#icon-Vector"></use>
-             </svg>
-          </div>
-          <div>
-            <label for="contact">Имя</label>
-            <input class="contact" id="contact" type="text">
-            <svg class="modal-icon"  width="11px" height="11px">
-                <use href="./images/icons.svg#icon-Vector"></use>
-             </svg>
-          </div>
-          <div></div>
-          <div>
-            <button class="modal-close-button" type="button" data-modal-close>
-                <svg class="modal-icon"  width="11px" height="11px">
-                    <use href="./images/icons.svg#icon-Vector"></use>
-                 </svg>
-               </button>
-          </div>
-
        </div>
    </div>
 

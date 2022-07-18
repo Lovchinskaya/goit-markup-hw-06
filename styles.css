@@ -765,6 +765,7 @@ a.logo-footer {
 .form-info-input:focus {
     border-color: var(--blue-brand-color);
     outline: none;
+    fill: var(--blue-brand-color);
 }
 
 .form-frame-cover {
@@ -783,23 +784,6 @@ a.logo-footer {
     height: 120px;
     padding: 12px 16px;
 }
-/*.checkbox-policy {
-    position: relative;
-    margin-bottom: 20px;
-}*/
-
-
-/*.checkbox-icon {
-
-    display: inline-block;
-    margin-top: 0px;
-    position: relative;
-    top: 1px;
-    margin-right: 9px;
-    border-radius: 2px;
-    outline: 0;
-
-}*/
 .policy-text-link,
 .policy-text {
     color: #757575;
